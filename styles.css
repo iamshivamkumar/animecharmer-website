@@ -5,9 +5,10 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 
 .mechanic-feature { grid-column: 1 / -1; display: grid; grid-template-columns: 1.15fr 1fr; }
-.mechanic-feature .game-image { height: 100%; min-height: 260px; }
+.mechanic-trailer { align-self: center; min-width: 0; }
+.mechanic-trailer video { height: auto; }
 .mechanic-feature .launch-price { margin-top: 19px; color: var(--ink); }
+.mechanic-feature .store-button { margin-top: 12px; justify-content: center; }
 @media (max-width: 760px) {
   .mechanic-feature { display: block; }
-  .mechanic-feature .game-image { min-height: 0; height: auto; }
 }
